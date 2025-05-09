@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://i.postimg.cc/rwqVmFG1/backrgound-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: goldenrod;
+    font-size: 40px
+}
+
+h1{
+    font-size: 55px;
+    color: goldenrod
+}
+
+.vstup{
+    text-align: center;
+    background-color: #13204d;
+    border-radius: 15px;
+    border: 5px solid goldenrod;
+    height: 450px;
+    margin-top: 20px;
+    margin: 20px
+}
+
+nav{
+    background-color: #13204d;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #13204d;
+    margin: 20px;
+    background-color: goldenrod;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 23px;
+    transition: filter 0.3s ease;
+}
+
+nav a:hover{
+    filter: brightness(75%);
+}
+
+.start{
+    text-align: center;
+}
+
+.game{
+    text-align: center;
+    background-color: #100d24;
+    margin: 20px;
+    border-radius: 15px;
+    border: 5px solid goldenrod;
+}
+
+.answers1{
+    display: block;
+    margin: 15px auto; 
+    width: 80%;         
+    background-color: goldenrod;
+    color: #13204d;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: filter 0.3s ease;
+}
+
+.answers1:hover{
+    filter: brightness(75%);
+}
+
+img{
+    width: 200px
+}
+
+.footer {
+    background-color: #13204d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.contact {
+    text-decoration: none;
+    color: goldenrod;
+}
